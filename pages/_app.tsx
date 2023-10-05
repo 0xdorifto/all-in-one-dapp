@@ -22,7 +22,6 @@ import {
 } from "wagmi/chains";
 import { publicProvider } from "wagmi/providers/public";
 import "../styles/globals.css";
-
 const projectId: string = "69a6192195cb191eabe44fcbb6ee6e00";
 
 const { chains, publicClient, webSocketPublicClient } = configureChains(
