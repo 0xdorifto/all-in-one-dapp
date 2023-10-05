@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>All In One Dapp</title>
+        <title>0xdorifto</title>
         <meta content="Created by 0xdorifto" name="description" />
         <link href="/favicon.ico" rel="icon" />
       </Head>
