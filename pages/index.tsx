@@ -1,35 +1,59 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>All In One Dapp</title>
         <meta content="Created by 0xdorifto" name="description" />
         <link href="/favicon.ico" rel="icon" />
       </Head>
 
-      <main className={styles.main}>
+      <header>
         <ConnectButton />
+      </header>
 
-        <h1 className={styles.title}>Welcome to All in One Dapp!</h1>
+      <main>
+        <div>
+          <h1>0xdorifto</h1>
+          <h2>Web3/Blockchain Developer</h2>
+        </div>
 
-        <h1 className={styles.title}>Chain:</h1>
-
-        <h1 className={styles.title}>Wallet:</h1>
+        <Image src="/takumi.jpg" width={250} height={250} alt="Takumi" />
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://github.com/0xdorifto"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Made by @0xdorifto 🇵🇹
-        </a>
+      <footer>
+        <p>
+          <a href="https://www.linkedin.com/in/gastaosf/" target="_blank">
+            linkedIn
+          </a>
+        </p>
+        <p>
+          <a href="https://github.com/0xdorifto" target="_blank">
+            github
+          </a>
+        </p>
+        <p>
+          <a href="https://twitter.com/0xdorifto" target="_blank">
+            X
+          </a>
+        </p>
+        <p>
+          <a href="https://www.lensfrens.xyz/0xdorifto.lens" target="_blank">
+            lens
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://discord.com/users/373964924134883339"
+            target="_blank"
+          >
+            discord
+          </a>
+        </p>
       </footer>
     </div>
   );
