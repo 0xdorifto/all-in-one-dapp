@@ -1,7 +1,6 @@
-import type { Config } from "tailwindcss";
 const plugin = require("tailwindcss/plugin");
 
-const config: Config = {
+const config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -64,12 +63,12 @@ const config: Config = {
       },
       keyframes: {
         "accordion-down": {
-          from: { height: 0 },
+          from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: 0 },
+          to: { height: "0" },
         },
       },
       animation: {
@@ -82,7 +81,7 @@ const config: Config = {
     require("tailwindcss-animate"),
     plugin(function ({ addBase, theme }) {
       addBase({
-        h1: { fontSize: theme("fontSize.4xl") },
+        h1: { fontSize: theme("fontSize.6xl") },
         h2: { fontSize: theme("fontSize.xl") },
         h3: { fontSize: theme("fontSize.lg") },
       });
