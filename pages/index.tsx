@@ -21,6 +21,8 @@ const Home: NextPage = () => {
 
       <main>
         <div className="flex justify-around">
+          {/* <Image alt="bridge" src="/background.jpg" fill /> */}
+
           <div className="place-content-center">
             <h1>0xdorifto</h1>
             <h2>Web3/Blockchain Developer</h2>
