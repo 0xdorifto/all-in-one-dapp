@@ -26,11 +26,7 @@ export default function Footer() {
         >
           <FaXTwitter size="2em" />
         </a>
-        <a
-          className="mx-2"
-          href="https://www.lensfrens.xyz/0xdorifto.lens"
-          target="_blank"
-        >
+        <a className="mx-2" href="https://hey.xyz/u/0xdorifto" target="_blank">
           <RiCameraLensFill size="2em" />
         </a>
         <a
