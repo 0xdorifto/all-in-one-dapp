@@ -1,9 +1,9 @@
 "use client";
 
+import DownloadButton from "@/components/DownloadButton";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useState } from "react";
-import { AiOutlineFile } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 
 export default function Home() {
@@ -46,12 +46,7 @@ export default function Home() {
           {copyState}
         </Button>
 
-        <a href="../public/CV.pdf" download>
-          <Button className="mt-2 w-[260px]">
-            <AiOutlineFile className="mr-2 h-4 w-4" />
-            Download CV
-          </Button>
-        </a>
+        <DownloadButton />
       </div>
     </main>
   );
