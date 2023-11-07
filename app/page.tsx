@@ -43,7 +43,7 @@ export default function Home() {
           <h2>Web3/Blockchain Developer</h2>
         </div>
 
-        <div className="flex flex-col items-center justify-center mt-16">
+        <div className="flex flex-col items-center justify-center mt-4">
           <Button onClick={copyToClipboard} className="w-[260px]">
             {copyState !== "Copied!" && (
               <HiOutlineMail className="mr-2 h-4 w-4" />
