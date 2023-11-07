@@ -3,7 +3,7 @@
 import { AiOutlineFile } from "react-icons/ai";
 import { Button } from "./ui/button";
 
-export default function DownloadButton() {
+export function DownloadButton() {
   const handleClick = async () => {
     const response = await fetch("/api/file");
     const blob = await response.blob();

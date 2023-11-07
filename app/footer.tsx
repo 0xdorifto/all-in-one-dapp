@@ -4,7 +4,7 @@ import { RiCameraLensFill } from "react-icons/ri";
 
 export default function Footer() {
   return (
-    <footer className="absolute bottom-0 inset-x-0 p-4">
+    <footer className="fixed bottom-0 inset-x-0 p-4">
       <p className="flex justify-center mb-2">Made in 🇵🇹</p>
 
       {/* change color on hover */}
