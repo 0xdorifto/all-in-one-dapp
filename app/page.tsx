@@ -53,6 +53,32 @@ export default function Home() {
 
           <DownloadButton />
         </div>
+
+        {/* <div>
+          <h2>Achievements</h2>
+          <ul>
+            <li>ETH Global Lisbon</li>
+            <li>ETH Global Paris</li>
+            <li>Solved Ethernaut Challenges</li>
+            <li>IST Computer Science Graduate</li>
+            <li>English C2 certified</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>About me</h2>
+          <p>
+            Hello, I'm 0xdorifto, a Web3/Blockchain developer from Lisbon,
+            Portugal. In my second year of university, I stumbled across bitcoin
+            which made me so interested in blockchain I changed my major to
+            computer science so I could eventually work with this technology.
+            I've been working full time in web3 for more than a year, in which I
+            participated in some hackathons, and did front-end development for
+            over 2 years. Right now, I'm particularly interested in NFTs and
+            their use cases, such as gatekeeping, digital identification,
+            tokenization of real world assets, etc...
+          </p>
+        </div> */}
       </div>
     </main>
   );
