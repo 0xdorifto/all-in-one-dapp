@@ -4,7 +4,7 @@ import { RiCameraLensFill } from "react-icons/ri";
 
 export default function Footer() {
   return (
-    <footer className="absolute bottom-0 inset-x-0 px-4 pb-4 bg-background">
+    <footer className="fixed bottom-0 inset-x-0 px-4 pb-4 bg-background">
       <p className="flex justify-center mb-2">Made in 🇵🇹</p>
 
       <div className="flex justify-center">
