@@ -40,7 +40,7 @@ export default function Home() {
 
         <div className="my-4 text-center">
           <h1>0xdorifto</h1>
-          <h2>Web3/Blockchain Developer</h2>
+          <h2>Web3/Blockchain Developer - Co-Founder @ Lendfinity</h2>
         </div>
 
         <div className="flex flex-col items-center justify-center mt-4">
